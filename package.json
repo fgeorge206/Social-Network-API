@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/fgeorge206/Social-Network-API#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "dayjs": "^1.11.7",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.1"
   }
 }

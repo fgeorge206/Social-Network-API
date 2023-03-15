@@ -21,4 +21,6 @@ This is a Social Networking API that uses MongoDB and Mongoose. This API helped 
 <a href="https://mongoosejs.com/">Mongoose</a>
 <br/>
 <a href="https://insomnia.rest/">Insomnia</a>
+<br/>
+Thank you <a href="https://github.com/claricetran">Clarice Tran</a> for helping with this assignment.
 

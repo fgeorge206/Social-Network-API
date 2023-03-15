@@ -1,5 +1,6 @@
 const {User, Thought} = require('../models');
 const { populate } = require('../models/User');
+const ObjectId = require('mongodb').ObjectId;
 
 module.exports = {
     getUsers(req,res){
@@ -12,8 +13,8 @@ module.exports = {
             .select('-__v')
             .populate("friends")
             .populate({
-                path:'thought',
-                populate: 'reactions'
+                path:"thoughts",
+                populate: "reactions"
             })
             .then((user) =>
                 !user
